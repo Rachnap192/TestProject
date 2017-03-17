@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Task1]">
+  <parameter name="browser" value="IE"/>
+  <test name="Internet Explorer Test(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.org.learningMaven.cucrunner.Cucumber_Runner">
+        <methods>
+          <include name="test01" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.org.learningMaven.cucrunner.Cucumber_Runner -->
+    </classes>
+  </test> <!-- Internet Explorer Test(failed) -->
+</suite> <!-- Failed suite [Task1] -->
